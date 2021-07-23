@@ -1,0 +1,100 @@
+p {
+  font-family: "Roboto";
+}
+body {
+  background: whitesmoke;
+}
+a,
+a:active,
+a:visited {
+  color: #2c70b4;
+}
+
+.marginBox {
+  margin-top: -150px;
+  margin-left: 43%;
+  position: absolute;
+}
+
+.diagonalBox {
+  background: #2c70b4;
+  padding: 100px 0;
+  transform: skew(0deg, -6deg) translateY(-80px);
+  position: relative;
+}
+.tech-stack-icons {
+  text-align: center;
+}
+
+.tech-stack-icons img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 5px;
+}
+.circlePer {
+  margin-left: 25%;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+  .marginBox {
+    margin-top: -150px;
+    margin-left: 37%;
+    position: absolute;
+  }
+
+  .circledot {
+    height: 30px;
+    width: 30px;
+    margin-left: 150px;
+  }
+
+  .circlePer {
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .ml-class1 {
+    margin-left: 13px;
+  }
+
+  .ml-class2 {
+    margin-left: 13px;
+  }
+
+  .ml-class3 {
+    margin-left: 13px;
+  }
+
+  .ml-class {
+    margin-left: 50px;
+  }
+
+  .ml-class4 {
+    margin-left: 13px;
+  }
+
+  .marginBox {
+    margin-top: -150px;
+    margin-left: 25%;
+    position: absolute;
+  }
+
+  .circledot {
+    height: 25px;
+    width: 25px;
+    margin-left: 130px;
+  }
+
+  .circlePer {
+    margin-left: 65px;
+  }
+}
+
+.card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
