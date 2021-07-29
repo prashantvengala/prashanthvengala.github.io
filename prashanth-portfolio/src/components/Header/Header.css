@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   flex: 1;
-  padding: 20px 12px;
+  padding: 40px 12px;
   position: relative;
   align-items: center;
   width: 100%;
@@ -28,6 +28,9 @@
   font-weight: 800;
 }
 @media only screen and (max-width: 720px) {
+  .header {
+    width: 90%;
+  }
   .mobile-menu {
     display: flex;
   }
