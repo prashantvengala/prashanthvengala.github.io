@@ -24,7 +24,10 @@ function About() {
       </div>
       <div>
         <div className="download">
-          <a download href={require("../../../assets/resume.pdf").default}>
+          <a
+            download
+            href={require("../../../assets/icons/resume.pdf").default}
+          >
             <i class="fi-rr-cloud-download download-icon" />
             Download Resume
           </a>
