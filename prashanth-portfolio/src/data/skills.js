@@ -3,20 +3,32 @@ export const SkillsData = [
     type: "Frontend",
     list: [
       {
-        name: "ReactJS",
-        icon: <i class="devicon-react-original colored"></i>,
+        name: "HTML",
+        icon: <i class="devicon-html5-plain colored"></i>,
       },
       {
-        name: "NextJS",
-        icon: <i class="devicon-nextjs-original colored"></i>,
+        name: "CSS",
+        icon: <i class="devicon-css3-plain colored"></i>,
       },
       {
-        name: "Javascript",
+        name: "JAVASCRIPT",
         icon: <i class="devicon-javascript-plain colored"></i>,
       },
       {
-        name: "Typescript",
-        icon: <i class="devicon-typescript-plain colored"></i>,
+        name: "REACT",
+        icon: <i class="devicon-react-original colored"></i>,
+      },
+      {
+        name: "REDUX",
+        icon: <i class="devicon-redux-original colored"></i>,
+      },
+      {
+        name: "MATERIAL UI",
+        icon: <i class="devicon-materialui-plain colored"></i>,
+      },
+      {
+        name: "GIT",
+        icon: <i class="devicon-git-plain colored"></i>,
       },
     ],
   },
@@ -24,12 +36,37 @@ export const SkillsData = [
     type: "Backend",
     list: [
       {
-        name: "C++",
-        icon: <i class="devicon-cplusplus-plain colored"></i>,
+        name: "MONGO DB",
+        icon: <i class="devicon-mongodb-plain-wordmark colored"></i>,
       },
       {
-        name: "NodeJS",
+        name: "NODE JS",
         icon: <i class="devicon-nodejs-plain colored"></i>,
+      },
+      {
+        name: "EXPRESS JS",
+        icon: <i class="devicon-express-original-wordmark"></i>,
+      },
+    ],
+  },
+  {
+    type: "Tools",
+    list: [
+      {
+        name: "NPM",
+        icon: <i class="devicon-npm-original-wordmark colored"></i>,
+      },
+      {
+        name: "VS CODE",
+        icon: <i class="devicon-visualstudio-plain colored"></i>,
+      },
+      {
+        name: "CODEPEN",
+        icon: <i class="devicon-codepen-plain colored"></i>,
+      },
+      {
+        name: "SLACK",
+        icon: <i class="devicon-slack-plain colored"></i>,
       },
     ],
   },
