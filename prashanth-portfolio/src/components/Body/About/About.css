@@ -1,6 +1,6 @@
 .about {
   /* height: 75vh; */
-  padding: 60px 50px;
+  padding: 60px 30px;
   height: 100vh;
 }
 .about-top {
@@ -19,7 +19,7 @@
 }
 .about-info p {
   font-size: 18px;
-  text-align: left;
+  text-align: initial;
 }
 .info-name {
   font-size: 32px;
